@@ -1,0 +1,24 @@
+{
+  "name": "nikhil-cyber-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "serve:python": "python3 backend/server.py",
+    "generate:ruby": "ruby tools/profile_builder.rb",
+    "generate:go": "go run services/skill_signal.go"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "three": "^0.179.1",
+    "vite": "^8.0.16"
+  },
+  "devDependencies": {
+    "@types/three": "^0.184.1",
+    "playwright": "^1.61.0",
+    "typescript": "^5.9.2"
+  }
+}
