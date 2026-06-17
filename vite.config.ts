@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/portfolio-nikhil/",
+  base: "/VS-code/",
   server: {
     port: 5174,
     strictPort: false
